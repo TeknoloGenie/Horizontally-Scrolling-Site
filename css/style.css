@@ -1,0 +1,85 @@
+/*
+	RESET & BASIC SETUP
+*/
+
+
+
+* {
+	margin: 0; 
+	padding: 0; 
+}
+
+body {
+	overflow-y: hidden;
+}
+
+tr { 
+	vertical-align: top;
+}
+
+table {background-color: transparent}
+
+/*
+	STRUCTURE
+*/
+#page-wrap { position: absolute; z-index: 1;}
+#page-wrap-bg { position: absolute; z-index: -1;}
+.page-panel { 
+	width: inherit; 
+	position: relative;
+	height: inherit;
+	margin: 0px 60px;
+}
+
+
+.panel-one { 
+	background:inherit;
+	visibility:visible;
+}
+.panel-two { 
+	background:inherit;
+	display: none;
+	-webkit-transform: skew(15deg); 
+   	-moz-transform: skew(15deg); 
+   	-o-transform: skew(15deg);
+   	transform: skew(15deg);
+   	font-style:italic;
+}
+.panel-three { 
+	background:inherit;
+	display: none;
+}
+.panel-four { 
+	background:inherit;
+	display: none;
+}
+.panel-five { 
+	background:inherit;
+	display: none;
+}
+
+.panel-six { 
+	background:inherit;
+	display: none;
+}
+
+.panel-bg {
+	background: #0066CC;
+	height:auto;
+	-webkit-transform: skew(15deg); 
+   	-moz-transform: skew(15deg); 
+   	-o-transform: skew(15deg);
+   	transform: skew(15deg);
+}
+
+
+/*
+	TYPOGRAPHY
+*/
+p { font-size: 1.2em; margin: 0 0 15px 0; }
+h1 { font-family: Helvetica, sans-serif; font-size: 4.0em;
+							  letter-spacing: -1px; color: #ccc; }
+h2 { font-family: Helvetica, sans-serif; font-size: 3.0em;
+							  letter-spacing: -1px; color: #ccc; }
+a { color: #0066cc; }
+a:hover { color: #ccc; }
